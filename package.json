@@ -1,0 +1,42 @@
+{
+  "name": "docpad-plugin-formmailer",
+  "version": "2.0.0",
+  "description": "DocPad plugin to create, send and customize a contact form.",
+  "homepage": "https://github.com/austinkettner/docpad-plugin-formmailer",
+  "keywords": [
+    "docpad",
+    "docpad-plugin",
+    "form",
+    "mail",
+    "nodemailer"
+  ],
+  "author": "Austin Kettner <email@austinkettner.com> (http://austinkettner.com)",
+  "maintainers": [
+    "Austin Kettner <email@austinkettner.com> (http://austinkettner.com)"
+  ],
+  "contributors": [
+    "Austin Kettner <email@austinkettner.com> (http://austinkettner.com)"
+  ],
+  "bugs": {
+    "url": "https://github.com/austinkettner/docpad-plugin-formmailer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/austinkettner/docpad-plugin-formmailer.git"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "docpad": ">=6.5"
+  },
+  "dependencies": {
+    "nodemailer": ">=0.4.4"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.7.1"
+  },
+  "main": "./out/contactify.plugin.js",
+  "scripts": {
+    "publish": "cake compile",
+    "test": "node ./out/contactify.test.js"
+  }
+}
